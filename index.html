@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Laundry Co.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('  https://www.cleanipedia.com/images/5h1w0177knh8/JeM9ftHBszxf1iG3iWhYs/c87c4993d0741cf8e0997164b090f82e/MDUuX0NsZWFuaXBlZGlhX0p1bGlfMjAyMV9IZWFkZXIuanBn/1200w/seorang-sedang-menjemur-pakaian-putih-di-luar-ruangan-dengan-latar-belakang-langit-biru..jpg  ') no-repeat center center fixed; /* Ganti URL gambar sei kebutuhan */
+            background-size: cover; 
+            color: #5d5d5d;
+          
+            
+         
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            
+        }
+
+
+        header {
+           
+            background-color: rgba(248, 244, 240, 0.9); 
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+            width: 100%; 
+            max-width: 1200px; 
+            box-sizing: border-box;
+            position: relative;
+             
+            margin-bottom: 40px; 
+           
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #7B542F;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #d8bfd8;
+        }
+
+        .hero {
+           
+            background: rgba(255, 250, 240, 0.7); 
+            padding: 100px 20px;
+            text-align: center;
+            color: #5d5d5d;
+            border-radius: 10px; 
+            width: 90%; 
+            max-width: 800px; 
+            
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px; 
+        }
+
+        .btn {
+            background-color: #FFCF71;
+            color: #5d5d5d;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%; 
+        }
+
+        .services {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            flex-wrap: wrap; /
+            gap: 20px; 
+        }
+
+        .service-card {
+            background-color: rgba(255, 207, 113, 0.9); 
+            border-radius: 10px;
+            padding: 20px;
+            min-width: 250px; 
+            max-width: 30%; 
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card h3 {
+            color: #5d5d5d;
+            margin: 15px 0;
+        }
+
+        .testimonial {
+            background-color: rgba(255, 207, 113, 0.9); 
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+           
+            background-color: rgba(93, 93, 93, 0.9); 
+            color: white;
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+            max-width: 1200px; 
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2> D Laundry</h2>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#harga">Harga</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Laundry Bersih, Wangi, dan Estetik</h1>
+        <p>Kami hadir untuk memberikan kenyamanan dalam perawatan pakaianmu. Dengan sentuhan estetik dan kehangatan.</p>
+        <a href="#layanan" class="btn">Lihat Layanan</a>
+    </section>
+
+    <section id="layanan">
+        <h2 style="text-align: center; color: #5d5d5d;">Layanan Kami</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Setrika Saja</h3>
+                <p>Cuci sendiri, kami yang setrika.</p>
+            </div>
+            <div class="service-card">
+                <h3>Cuci & Setrika</h3>
+                <p>Paket lengkap untuk pakaian bersih dan rapi.</p>
+            </div>
+            <div class="service-card">
+                <h3>Dry Clean</h3>
+                <p>Perawatan khusus untuk bahan halus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="harga">
+        <h2 style="text-align: center; color: #5d5d5d;">Testimoni Pelanggan</h2>
+        <div class="testimonial">
+            <p>"Pelayanannya cepat dan ramah. Wangi sabunnya bikin betah!"</p>
+            <strong>- Dinda</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Kemasannya cantik banget, jadi makin betah pakai jasa ini."</p>
+            <strong>- Rina</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Baju saya jadi wangi banget"</p>
+            <strong>- Dany</strong>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2 style="text-align: center; color: #585466;">Hubungi Kami</h2>
+        <p style="text-align: center;">Kirim pesan atau pesan layanan melalui WhatsApp: <a href="  https://wa.me/6281234567890    " target="_blank">0812-3456-7890</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 D Laundry Co. — Semua hak dilindungi.</p>
+        <p>Merawat pakaian, merawat mood.</p>
+    </footer>
+
+</body>
+</html>
